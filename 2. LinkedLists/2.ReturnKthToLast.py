@@ -47,6 +47,23 @@ class LinkedList:
                 print(curr_node.data)
                 return
             curr_node = curr_node.next
+        
+    def kthToLast_3(self, k):
+        # 2 poiner approach where both pointers are k steps apart at the start and then move simultaneously
+        # When 2nd pointer reaches end the first pointer is at Kth to last element
+
+        point1 = self.head
+        point2 = self.head
+
+        for i in range(k):
+            point2 = point2.next
+        
+        while point2:
+            point1 = point1.next
+            point2 = point2.next
+        print("Kth to the last element:")
+        print(point1.data)
+
 
 
 ll = LinkedList()
@@ -55,4 +72,4 @@ for i in range(5):
     ll.insertAtEnd(int(input()))
 
 print("Enter K:")
-ll.kthToLast_2(int(input()))
+ll.kthToLast_3(int(input()))
