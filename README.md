@@ -1,4 +1,4 @@
-# 🚀 CrackingTheCodingInterviewWithSlytherin 🚀
+# 🚀 Cracking The Coding Interview With Slytherin 🚀
 
 Greetings, young witch or wizard! 👋 Welcome to the Chamber of Coding, a secret chamber beneath the dungeons of Hogwarts, Slytherin House's pride. This isn't just any repository; it's your enchanted guide to mastering "Cracking the Coding Interview" with the cunning and resourcefulness of a true Slytherin.
 
